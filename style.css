@@ -54,11 +54,6 @@ a {
     text-decoration: none;
 }
 
-button {
-    cursor: pointer;
-    border: none;
-    background: none;
-}
 
 img {
     width: 100%;
@@ -163,10 +158,6 @@ header .navbar {
     font-size: var(--font-size-m);
 }
 
-.hero-section .hero-details .buttons {
-    display: flex;
-    gap: 23px;
-}
 
 .hero-section .hero-details .button {
     padding: 10px 26px;
@@ -504,9 +495,6 @@ header .navbar {
         max-width: 100%;
     }
 
-    .hero-section .hero-details .buttons {
-        justify-content: center;
-    }
 
     .hero-section .hero-image-wrapper {
         max-width: 270px;
